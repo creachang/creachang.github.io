@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on 寫點文字寫點程式</title>
+    <link>http://creachang.github.io/tags/test/</link>
+    <description>Recent content in Test on 寫點文字寫點程式</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved 2017</copyright>
+    <lastBuildDate>Sun, 20 Aug 2017 14:26:05 +0800</lastBuildDate>
+    
+	<atom:link href="http://creachang.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>http://creachang.github.io/first/</link>
+      <pubDate>Sun, 20 Aug 2017 14:26:05 +0800</pubDate>
+      
+      <guid>http://creachang.github.io/first/</guid>
+      <description>I say jojo in my life.</description>
+    </item>
+    
+  </channel>
+</rss>
