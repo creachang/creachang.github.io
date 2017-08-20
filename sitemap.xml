@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://vjeantet.fr/categories/</loc>
+    <loc>http://creachang.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vjeantet.fr/tags/</loc>
+    <loc>http://creachang.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vjeantet.fr/</loc>
+    <loc>http://creachang.github.io/</loc>
     <priority>0</priority>
   </url>
   

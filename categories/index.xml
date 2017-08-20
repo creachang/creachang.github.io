@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Valère JEANTET</title>
-    <link>http://vjeantet.fr/categories/</link>
-    <description>Recent content in Categories on Valère JEANTET</description>
+    <title>Categories on 寫點文字寫點程式</title>
+    <link>http://creachang.github.io/categories/</link>
+    <description>Recent content in Categories on 寫點文字寫點程式</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <copyright>All rights reserved</copyright>
+    <language>en-us</language>
+    <copyright>All rights reserved 2017</copyright>
     
-	<atom:link href="http://vjeantet.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://creachang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
