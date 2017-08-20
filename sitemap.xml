@@ -3,7 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://creachang.github.io/first/</loc>
+    <lastmod>2017-08-20T14:26:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://creachang.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://creachang.github.io/post/</loc>
+    <lastmod>2017-08-20T14:26:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,6 +25,7 @@
   
   <url>
     <loc>http://creachang.github.io/</loc>
+    <lastmod>2017-08-20T14:26:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
