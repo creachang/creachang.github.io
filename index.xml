@@ -18,7 +18,16 @@
       <pubDate>Sun, 20 Aug 2017 14:26:05 +0800</pubDate>
       
       <guid>http://creachang.github.io/hugo-%E5%BF%AB%E9%80%9F%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
-      <description></description>
+      <description>##前言 一直以來就很想要架個網站來玩一玩，原本是在Hexo、jekyll和Hugo之間選擇，後來因為選擇Hugo想說因為適用go語言寫的比較熟悉，於是來試試看。在Github上的Hugo開源專案有將近19000個star，使用人數非常的多。
+Hugo是什麼呢？官網封面就寫著： &amp;gt; Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+以下環境皆以Mac電腦為準：
+安裝Hugo 直接使用Homebrew安裝：
+$ brew install hugo  接著把go下載下來，設定好GOPATH環境變量，並且得到原始碼
+$ export GOPATH=$HOME/go $ go get -v github.com/spf13/hugo  程式碼會下載到$GOPATH/src的目錄下，如果是下載binary則會在$GOPATH/bin/ 如果需要更新所有Hugo的依賴library就增加參數-u：
+go get -u -v github.com/spf13/hugo  生成網站 使用Hugo快速生成網站，例如希望生成到 /User/Mac/blog 的路徑
+$ hugo new site /path/to/site  這樣就建立好目錄，移動到目錄位置：
+cd /User/Mac/blog  結構大致上如下：
+├ archetypes/ ├ content/ ├ layouts/ ├ static/ └ config.</description>
     </item>
     
   </channel>

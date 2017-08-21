@@ -41,7 +41,8 @@
     <title>Hugo 快速打造自己的部落格 &middot; 寫點文字寫點程式</title>
 
     
-    <meta name="description" content="" />
+    <meta name="description" content="##前言 一直以來就很想要架個網站來玩一玩，原本是在Hexo、jekyll和Hugo之間選擇，後來因為選擇Hugo想說因為適用go語言寫的比較熟悉，於是來試試看。在Github上的Hugo開源專案有將近19000個star，使用人數非常的多。
+Hugo是什麼呢？官網封面就寫著： &amp;gt; Hugo is one of " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -111,8 +112,8 @@
     },
     "headline": Hugo 快速打造自己的部落格,
     "name": Hugo 快速打造自己的部落格,
-    "wordCount": 0,
-    "timeRequired": "PT0M",
+    "wordCount": 88,
+    "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
@@ -228,6 +229,64 @@
 
     <section class="post-content">
       
+
+<p>##前言
+一直以來就很想要架個網站來玩一玩，原本是在Hexo、jekyll和Hugo之間選擇，後來因為選擇Hugo想說因為適用go語言寫的比較熟悉，於是來試試看。在Github上的Hugo開源專案有將近19000個star，使用人數非常的多。</p>
+
+<p>Hugo是什麼呢？官網封面就寫著：
+&gt; Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.</p>
+
+<p>以下環境皆以<code>Mac</code>電腦為準：</p>
+
+<h2 id="安裝hugo">安裝Hugo</h2>
+
+<p>直接使用<code>Homebrew</code>安裝：</p>
+
+<pre><code>$ brew install hugo
+</code></pre>
+
+<p>接著把go下載下來，設定好<code>GOPATH</code>環境變量，並且得到原始碼</p>
+
+<pre><code>$ export GOPATH=$HOME/go
+$ go get -v github.com/spf13/hugo
+</code></pre>
+
+<p>程式碼會下載到<code>$GOPATH/src</code>的目錄下，如果是下載binary則會在<code>$GOPATH/bin/</code>
+如果需要更新所有Hugo的依賴library就增加參數<code>-u</code>：</p>
+
+<pre><code>go get -u -v github.com/spf13/hugo
+</code></pre>
+
+<h2 id="生成網站">生成網站</h2>
+
+<p>使用Hugo快速生成網站，例如希望生成到 /User/Mac/blog 的路徑</p>
+
+<pre><code>$ hugo new site /path/to/site
+</code></pre>
+
+<p>這樣就建立好目錄，移動到目錄位置：</p>
+
+<pre><code>cd /User/Mac/blog
+</code></pre>
+
+<p>結構大致上如下：</p>
+
+<pre><code>├ archetypes/
+├ content/
+├ layouts/
+├ static/
+└ config.toml
+</code></pre>
+
+<h2 id="參考資源">參考資源</h2>
+
+<p><a href="https://git-scm.com/book/zh-tw/v1">git 教學</a><br />
+<a href="https://blog.longwin.com.tw/2015/05/git-submodule-add-remove-2015/">git submodule 新增、移除和使用</a><br />
+<a href="http://tonybai.com/2015/09/23/intro-of-gohugo/">使用Hugo搭建靜態站點</a><br />
+<a href="http://www.gohugo.org/doc/overview/configuration/">Hugo中文文檔</a><br />
+<a href="http://nanshu.wang/post/2015-01-31/">Hugo静态网站生成器中文教程</a><br />
+<a href="https://kaichu.io/2015/07/12/my-first-post/">在 Github Pages 建立 Hugo 靜態網站</a></p>
+
     </section>
 
 
